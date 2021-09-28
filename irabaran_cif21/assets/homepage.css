@@ -11,34 +11,36 @@ h1 {
   position: absolute;
 width: 551px;
 height: 141px;
-left: 444px;
-top: 181px;
+left: 102px;
+top: 196px;
 
-font-family: Trajan Pro 3;
+font-family: Gill Sans;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 font-size: 144px;
-line-height: 173px;
+line-height: 167px;
 letter-spacing: 0.03em;
 
-color: #000000
+color: #000000;
+
 }
 h2 {
 	position: absolute;
 width: 1196px;
-height: 320px;
+height: 289px;
 left: 122px;
-top: 433px;
+top: 493px;
 
-font-family: Arapey;
+font-family: Arial;
 font-style: normal;
 font-weight: normal;
-font-size: 40px;
-line-height: 44px;
-text-align: center;
+font-size: 35px;
+line-height: 40px;
+text-align: right;
 letter-spacing: 0.03em;
 
 color: #000000;
+
 }
 
 .arrowd {
