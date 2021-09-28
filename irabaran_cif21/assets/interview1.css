@@ -9,16 +9,16 @@ background-size: 1440px 10900px ;
 }
 h1 {
   position: absolute;
-width: 1217px;
-height: 141px;
-left: 112px;
+width: 1013px;
+height: 150px;
+left: 214px;
 top: 338px;
 
 font-family: Gill Sans;
 font-style: normal;
 font-weight: 900;
 font-size: 144px;
-line-height: 179px;
+line-height: 174px;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -560,7 +560,7 @@ color: #000000;
 }
 
 .arrowr {
-  position: absolute;
+  position: fixed;
 width: 0px;
 height: 0px;
 left: 1349px;
