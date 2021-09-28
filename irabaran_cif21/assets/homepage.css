@@ -1,0 +1,57 @@
+body {
+	background-image: url(backgroundhp.jpg);
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+background-size: 1440px 1024px;
+}
+h1 {
+  position: absolute;
+width: 551px;
+height: 141px;
+left: 444px;
+top: 181px;
+
+font-family: Trajan Pro 3;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 173px;
+letter-spacing: 0.03em;
+
+color: #000000
+}
+h2 {
+	position: absolute;
+width: 1196px;
+height: 320px;
+left: 122px;
+top: 433px;
+
+font-family: Arapey;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 44px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+
+.arrowd {
+  
+position: absolute;
+width: 0px;
+height: 0px;
+left: 710px;
+top: 937px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 50px solid black;
+transform: rotate(-180deg);
+}
+
+
