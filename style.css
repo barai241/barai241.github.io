@@ -5,24 +5,48 @@ width: 1440px;
 height: 1024px;
 background-size: 1440px 1024px;
 
-background: #F7C0C0;
+background: #EAE2FF;
 }
 
 h1{
+
 position: absolute;
-width: 973px;
-height: 141px;
-left: 244px;
-top: 52px;
+width: 660px;
+height: 155px;
+left: 1145px;
+top: 378px;
 
-font-family: Gill Sans;
+font-family: Impact;
 font-style: normal;
-font-weight: bold;
-font-size: 144px;
-line-height: 167px;
+font-weight: 900;
+font-size: 140px;
+line-height: 171px;
 text-align: center;
+letter-spacing: 0.05em;
 
-color: #BB0202;
+color: #0602BB;
+
+transform: rotate(90deg);
+
+}
+
+h2 {
+	position: absolute;
+width: 1272px;
+height: 141px;
+left: 46px;
+top: 101px;
+
+font-family: Impact;
+font-style: normal;
+font-weight: 900;
+font-size: 140px;
+line-height: 171px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #0602BB;
+
 
 }
 
@@ -30,85 +54,69 @@ color: #BB0202;
 	
 position: absolute;
 width: 141px;
-height: 64px;
-left: 650px;
-top: 433px;
+height: 47px;
+left: 148px;
+top: 373px;
 
-font-family: Arapey;
-font-style: italic;
+font-family: Gill Sans;
+font-style: normal;
 font-weight: normal;
 font-size: 48px;
-line-height: 53px;
+line-height: 55px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #000000;
+color: #FFFFFF;
 
 }
 .link2{
-	position: absolute;
-width: 230px;
-height: 64px;
-left: 605px;
-top: 591px;
 
-font-family: Arapey;
-font-style: italic;
+position: absolute;
+width: 195px;
+height: 50px;
+left: 383px;
+top: 373px;
+
+font-family: Gill Sans;
+font-style: normal;
 font-weight: normal;
 font-size: 48px;
-line-height: 53px;
+line-height: 55px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #000000;
+color: #FFFFFF;
 
 }
 
-.n1{
+.box1 {
 	position: absolute;
-width: 92px;
-height: 85px;
-left: 429px;
-top: 412px;
+width: 208px;
+height: 95px;
+left: 114px;
+top: 389px;
 
-font-family: Gill Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 83px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #990101;
-
+background: #020051;
 
 }
 
-.n2 {
+.box2 {
 	position: absolute;
-width: 92px;
-height: 85px;
-left: 429px;
-top: 580px;
+width: 235px;
+height: 95px;
+left: 363px;
+top: 389px;
 
-font-family: Gill Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 83px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #A00909;
+background: #020051;
 
 }
-
 a {
-	color: black;
+	color: white;
+	text-decoration: none;
 }
 
 a:hover{
-	color: red;
+	color: #FA00FF;
 }
 
 
