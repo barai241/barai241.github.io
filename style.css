@@ -103,6 +103,14 @@ color: #A00909;
 
 }
 
+a {
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
 
 
 
