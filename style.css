@@ -1,12 +1,106 @@
-html{
-background-color: black;
+body{
+background-color: lightpink;
+position: relative;
+width: 1440px;
+height: 1024px;
+background-size: 1440px 1024px;
+
+background: #F7C0C0;
 }
 
 h1{
-color: white;
+position: absolute;
+width: 973px;
+height: 141px;
+left: 244px;
+top: 52px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 144px;
+line-height: 167px;
+text-align: center;
+
+color: #BB0202;
+
 }
 
-p{
-	color: white;
+.link1{
+	
+position: absolute;
+width: 141px;
+height: 64px;
+left: 650px;
+top: 433px;
+
+font-family: Arapey;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #000000;
+
 }
+.link2{
+	position: absolute;
+width: 230px;
+height: 64px;
+left: 605px;
+top: 591px;
+
+font-family: Arapey;
+font-style: italic;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
+
+.n1{
+	position: absolute;
+width: 92px;
+height: 85px;
+left: 429px;
+top: 412px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 83px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #990101;
+
+
+}
+
+.n2 {
+	position: absolute;
+width: 92px;
+height: 85px;
+left: 429px;
+top: 580px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 83px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #A00909;
+
+}
+
 
