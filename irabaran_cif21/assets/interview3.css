@@ -24,7 +24,11 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #000000;
-
+transition: transform 0.2s;
+}
+h1:hover {
+	color:#39FF27 ;
+	transform: scale(1.5);
 }
 .q1 {
 	position: absolute;
@@ -47,7 +51,7 @@ color: #000000;
 }
 .s1 {
 	position: absolute;
-width: 109px;
+
 height: 121px;
 left: 120px;
 top: 1209px;
@@ -60,6 +64,19 @@ line-height: 116px;
 letter-spacing: 0.03em;
 
 color: #000000;
+
+}
+.s1:hover{
+	font-size: 0;
+}
+.s1:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 
 }
 .a1 {
@@ -100,7 +117,7 @@ color: #000000;
 }
 .s2 {
 	position: absolute;
-width: 109px;
+
 height: 103px;
 left: 122px;
 top: 2450px;
@@ -114,6 +131,18 @@ letter-spacing: 0.03em;
 
 color: #000000;
 
+}
+.s2:hover{
+	font-size: 0;
+}
+.s2:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a2 {
 	position: absolute;
@@ -154,7 +183,7 @@ color: #000000;
 }
 .s3 {
 	position: absolute;
-width: 109px;
+
 height: 114px;
 left: 122px;
 top: 3420px;
@@ -168,6 +197,18 @@ letter-spacing: 0.03em;
 
 color: #000000;
 
+}
+.s3:hover{
+	font-size: 0;
+}
+.s3:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a3 {
 	position: absolute;
@@ -207,7 +248,7 @@ color: #000000;
 }
 .s4 {
 	position: absolute;
-width: 109px;
+
 height: 99px;
 left: 121px;
 top: 4392px;
@@ -220,6 +261,18 @@ line-height: 116px;
 letter-spacing: 0.03em;
 
 color: #000000;
+}
+.s4:hover{
+	font-size: 0;
+}
+.s4:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a4 {
 	position: absolute;
@@ -260,7 +313,7 @@ color: #000000;
 }
 .s5 {
 	position: absolute;
-width: 90px;
+
 height: 105px;
 left: 121px;
 top: 5189px;
@@ -274,6 +327,18 @@ letter-spacing: 0.03em;
 
 color: #000000;
 
+}
+.s5:hover{
+	font-size: 0;
+}
+.s5:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a5 {
 	position: absolute;
@@ -315,7 +380,7 @@ color: #000000;
 }
 .s6 {
 	position: absolute;
-width: 109px;
+
 height: 105px;
 left: 102px;
 top: 6237px;
@@ -329,6 +394,18 @@ letter-spacing: 0.03em;
 
 color: #000000;
 
+}
+.s6:hover{
+	font-size: 0;
+}
+.s6:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a6 {
 	position: absolute;
@@ -371,7 +448,7 @@ color: #000000;
 }
 .s7 {
 	position: absolute;
-width: 109px;
+
 height: 117px;
 left: 122px;
 top: 7029px;
@@ -384,6 +461,18 @@ line-height: 116px;
 letter-spacing: 0.03em;
 
 color: #000000;
+}
+.s7:hover{
+	font-size: 0;
+}
+.s7:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a7 {
 	position: absolute;
@@ -423,7 +512,7 @@ color: #000000;
 }
 .s8 {
 	position: absolute;
-width: 84px;
+
 height: 98px;
 left: 102px;
 top: 8269px;
@@ -436,6 +525,18 @@ line-height: 116px;
 letter-spacing: 0.03em;
 
 color: #000000;
+}
+.s8:hover{
+	font-size: 0;
+}
+.s8:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a8 {
 	position: absolute;
@@ -476,7 +577,7 @@ color: #000000;
 }
 .s9 {
 	position: absolute;
-width: 109px;
+
 height: 103px;
 left: 122px;
 top: 9686px;
@@ -489,6 +590,18 @@ line-height: 116px;
 letter-spacing: 0.03em;
 
 color: #000000;
+}
+.s9:hover{
+	font-size: 0;
+}
+.s9:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a9 {
 	position: absolute;
@@ -528,7 +641,7 @@ color: #000000;
 }
 .s10 {
 	position: absolute;
-width: 159px;
+
 height: 106px;
 left: 145px;
 top: 10646px;
@@ -542,6 +655,18 @@ letter-spacing: 0.03em;
 
 color: #000000;
 
+}
+.s10:hover{
+	font-size: 0;
+}
+.s10:hover:after {
+	content: attr(data-hover);
+	font-family: Gill Sans;
+font-style: normal;
+font-weight: bolder;
+font-size: 130px;
+line-height: 116px;
+color: #39FF27;
 }
 .a10 {
 	position: absolute;
@@ -573,3 +698,4 @@ border-right: 25px solid transparent;
 border-bottom: 50px solid black;
 transform: rotate(-90deg);
 }
+

@@ -353,5 +353,18 @@ background: url(IMG_4295.jpg);
  	filter: none;
  }
 
+ .arrowu {
+  position: absolute;
+width: 0px;
+height: 0px;
+left: 665px;
+top: 40px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 50px solid white;
+transform: rotate(0deg);
+
+}
+
 
 
