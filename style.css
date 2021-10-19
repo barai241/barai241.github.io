@@ -94,6 +94,25 @@ color: #FFFFFF;
 
 }
 
+.link3 {
+position: absolute;
+width: 430px;
+height: 50px;
+left: 608px;
+top: 438px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
 .box1 {
 	position: absolute;
 width: 208px;
@@ -114,6 +133,16 @@ top: 451px;
 
 background: #020051;
 
+}
+.box3 {
+
+position: absolute;
+width: 370px;
+height: 95px;
+left: 639px;
+top: 451px;
+
+background: #020051;
 }
 a {
 	color: white;
