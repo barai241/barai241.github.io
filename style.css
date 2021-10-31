@@ -149,6 +149,25 @@ color: #FFFFFF;
 
 }
 
+.link6 {
+
+position: absolute;
+width: 366px;
+height: 47px;
+left: 101px;
+top: 732px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
 .box1 {
 	position: absolute;
 width: 208px;
@@ -197,6 +216,16 @@ width: 443px;
 height: 95px;
 left: 543px;
 top: 599px;
+
+background: #020051;
+}
+
+.box6 {
+  position: absolute;
+width: 340px;
+height: 95px;
+left: 114px;
+top: 747px;
 
 background: #020051;
 }
