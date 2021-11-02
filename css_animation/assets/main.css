@@ -146,6 +146,7 @@ body {
   background: white;
   z-index: 3;
   animation: pulse 2s infinite;
+  overflow-x: hidden;
 }
 
 .circle5{
@@ -159,6 +160,7 @@ body {
   background: white;
   z-index: 3;
   animation: pulse 2s infinite;
+  overflow-x: hidden;
 }
 
 h2 {
