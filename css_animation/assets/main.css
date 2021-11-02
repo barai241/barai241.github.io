@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 
@@ -27,6 +28,7 @@ body {
     animation-timing-function: linear;
     border-radius: 50%;
     z-index: 3;
+    overflow-x: hidden;
 }
 
 
@@ -59,7 +61,7 @@ body {
     animation-timing-function: linear;
     border-radius: 50%;
    z-index: 3;
-  
+  overflow-x: hidden;
 }
 
 
@@ -90,6 +92,7 @@ body {
   background: lightpink;
   z-index: 0;
   animation: pulse 2s infinite;
+  overflow-x: hidden;
 }
 
 @keyframes pulse {
@@ -120,6 +123,7 @@ body {
   background: white;
   z-index: 3;
   animation: pulse 2s infinite;
+  overflow-x: hidden;
 }
 
 .circle3{
@@ -133,6 +137,7 @@ body {
   background: white;
   z-index: 3;
   animation: pulse 2s infinite;
+  overflow-x: hidden;
 }
 
 .circle4{
