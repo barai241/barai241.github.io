@@ -186,6 +186,24 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
+.link8 {
+  position: absolute;
+width: 287px;
+height: 43px;
+left: 393px;
+top: 851px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
 .box1 {
 	position: absolute;
 width: 208px;
@@ -262,6 +280,16 @@ width: 465px;
 height: 95px;
 left: 488px;
 top: 747px;
+
+background: #020051;
+}
+
+.box8 {
+  position: absolute;
+width: 347px;
+height: 95px;
+left: 363px;
+top: 867px;
 
 background: #020051;
 }
