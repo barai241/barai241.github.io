@@ -31,8 +31,8 @@ animation-timing-function: linear;
 width: 278px;
 height: 72px;
 left: 62px;
-top: 1470%;
-font-family: Big Caslon;
+top: 1370%;
+font-family: Helvetica;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
@@ -59,6 +59,7 @@ a:hover {
 	font-family: Big Caslon;
 	z-index: 1;
 
+
 	/*margin: 10%;*/
 }
 
@@ -81,6 +82,8 @@ letter-spacing: 0.03em;
 
 }
 
+.intro:hover { text-shadow: 0 0 15px #E8D7FF; }
+
 .arrow {
 	display: flex;
 	flex-direction: column;
@@ -90,7 +93,7 @@ flex-shrink: 3;
 flex-basis: auto;
 width: 15%;
 margin: auto;
-z-index: 2;
+z-index: 7;
 }
 
 
@@ -118,7 +121,8 @@ order: 1;
 
 
 .img1_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -130,6 +134,12 @@ order: 1;
 	justify-content: center;
 
 
+}
+
+.a:hover + .img1, .img1:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
 }
 
 .img2 {
@@ -141,7 +151,8 @@ z-index: 4;
 order: 1;
 }
 .img2_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -152,6 +163,13 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 }
+
+.a:hover + .img2, .img2:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
+
 .img3 {
 	
 margin:70px;
@@ -162,7 +180,8 @@ order: 1;
 }
 
 .img3_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -172,6 +191,12 @@ order: 1;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+}
+
+.a:hover + .img3, .img3:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
 }
 
 .img4 {
@@ -184,7 +209,8 @@ order: 1;
 }
 
 .img4_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -194,6 +220,12 @@ order: 1;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+}
+
+.a:hover + .img4, .img4:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
 }
 .img5 {
 	
@@ -205,7 +237,8 @@ order: 1;
 }
 
 .img5_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -215,6 +248,12 @@ order: 1;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+}
+
+.a:hover + .img5, .img5:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
 }
 .img6 {
 	
@@ -226,7 +265,8 @@ order: 1;
 }
 
 .img6_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -237,6 +277,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img6, .img6:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img7 {
 	
 margin:70px;
@@ -246,8 +292,11 @@ z-index: 4;
 order: 1;
 }
 
+
+
 .img7_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -258,6 +307,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img7, .img7:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img8 {
 	
 margin:70px;
@@ -268,7 +323,8 @@ order: 1;
 }
 
 .img8_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -279,6 +335,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img8, .img8:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img9 {
 	
 margin:70px;
@@ -289,7 +351,8 @@ order: 1;
 }
 
 .img9_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -300,6 +363,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img9, .img9:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img10 {
 	
 margin:70px;
@@ -310,7 +379,8 @@ order: 1;
 }
 
 .img10_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -321,6 +391,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img10, .img10:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img11 {
 	
 margin:70px;
@@ -331,7 +407,8 @@ order: 1;
 }
 
 .img11_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -342,6 +419,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img11, .img11:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img12 {
 	
 margin:70px;
@@ -352,7 +435,8 @@ order: 1;
 }
 
 .img12_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -363,6 +447,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img12, .img12:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img13 {
 	
 margin:70px;
@@ -373,7 +463,8 @@ order: 1;
 }
 
 .img13_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -384,6 +475,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+	.a:hover + .img13, .img13:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img14 {
 	
 margin:70px;
@@ -394,7 +490,8 @@ order: 1;
 }
 
 .img14_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -405,6 +502,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+	.a:hover + .img14, .img14:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img15 {
 	
 margin:70px;
@@ -415,7 +517,8 @@ order: 1;
 }
 
 .img15_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -426,6 +529,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+	.a:hover + .img15, .img15:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .img16 {
 	
 margin:70px;
@@ -436,7 +544,8 @@ order: 1;
 }
 
 .img16_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -447,6 +556,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+	.a:hover + .img16, .img16:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 
 	.img17 {
 	
@@ -458,7 +572,8 @@ order: 1;
 }
 
 .img17_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -469,7 +584,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-
+.a:hover + .img17, .img17:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 	.img18 {
 	
 margin:70px;
@@ -480,7 +599,8 @@ order: 1;
 }
 
 .img18_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -491,7 +611,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-
+.a:hover + .img18, .img18:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 	.img19 {
 	
 margin:70px;
@@ -502,7 +626,8 @@ order: 1;
 }
 
 .img19_description {
-	margin: 70px;
+	margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -513,6 +638,12 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
+
+	.a:hover + .img19, .img19:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 
 	.img20 {
 	
@@ -524,7 +655,8 @@ order: 1;
 }
 
 .img20_description {
-	margin: 70px;
+		margin left: 70px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -535,7 +667,11 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-
+.a:hover + .img20, .img20:hover{
+	 display: block;
+    position: relative;
+    z-index: 100;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 1200px;
