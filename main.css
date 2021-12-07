@@ -1,5 +1,8 @@
+
+
 body{
   background: rgba(255, 247, 52, 1.0);
+
 }
 
 .tittle1 {
@@ -153,9 +156,9 @@ animation: glitch 1s linear infinite;
 
 
 .p11 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -180,7 +183,7 @@ animation-timing-function: linear;
   z-index: 3;
   text-align: left;
   
-  margin-bottom: 2%;
+  margin-bottom: 10%;
   
 
   
@@ -194,14 +197,14 @@ a:visited {
 }
 
 a:hover {
-  color: black;
+  color: hotpink;
 }
 
 
 .p12 {
-   font-size: 90px;
+   font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -226,15 +229,15 @@ animation-timing-function: linear;
 color: black;
   z-index: 3;
   text-align: left;
-  margin-bottom: 2%;
+  margin-bottom: 10%;
 }
 
 
 
 .p13 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -259,17 +262,17 @@ animation-timing-function: linear;
  color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 
 
 .p14 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
-color: rgba(255, 247, 52, 1);
+color: black;
 text-align: left;
 margin-top: 3%;
 
@@ -292,15 +295,15 @@ animation-timing-function: linear;
   color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 
 
 .p15 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -325,15 +328,15 @@ animation-timing-function: linear;
   color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 
 
 .p16 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -358,14 +361,14 @@ animation-timing-function: linear;
   color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 
 .p17 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -390,15 +393,15 @@ animation-timing-function: linear;
   color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 
 
 .p18 {
-  font-size: 90px;
+  font-size: 100px;
   font-style: Bold;
-  font-family: Helvetica;
+  font-family: Eckmannpsych;
 z-index: 1;
 color: black;
 text-align: left;
@@ -422,7 +425,7 @@ animation-timing-function: linear;
  color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
 
 .link9 {
@@ -432,8 +435,11 @@ animation-timing-function: linear;
  color: black;
   z-index: 3;
   text-align: left;
-  
+  margin-bottom: 10%;
 }
+
+
+
 
 
 
