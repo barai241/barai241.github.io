@@ -190,8 +190,26 @@ color: #FFFFFF;
   position: absolute;
 width: 287px;
 height: 43px;
-left: 393px;
-top: 851px;
+left: 220px;
+top: 854px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.link9 {
+position: absolute;
+width: 287px;
+height: 43px;
+left: 601px;
+top: 853px;
 
 font-family: Gill Sans;
 font-style: normal;
@@ -288,7 +306,17 @@ background: #020051;
   position: absolute;
 width: 347px;
 height: 95px;
-left: 363px;
+left: 190px;
+top: 867px;
+
+background: #020051;
+}
+
+.box9 {
+  position: absolute;
+width: 347px;
+height: 95px;
+left: 578px;
 top: 867px;
 
 background: #020051;
