@@ -165,7 +165,7 @@ margin-top: 3%;
 
 .a {
   width: 40%;
-  align-items: right;
+  align-items: left;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -179,7 +179,7 @@ animation-timing-function: linear;
   color: black;
   z-index: 3;
   text-align: left;
-  margin-left: 2%;
+  
   margin-bottom: 2%;
 
   
@@ -243,7 +243,7 @@ margin-top: 3%;
 
 .c {
   width: 40%;
-  align-items: right;
+  align-items: center;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -276,7 +276,7 @@ margin-top: 3%;
 
 .d {
   width: 40%;
-  align-items: right;
+   align-items: center;
   animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -309,7 +309,7 @@ margin-top: 3%;
 
 .e {
   width: 40%;
-  align-items: right;
+  align-items: center;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -342,7 +342,7 @@ margin-top: 3%;
 
 .f {
   width: 40%;
-  align-items: right;
+   align-items: center;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -374,7 +374,7 @@ margin-top: 3%;
 
 .g {
   width: 40%;
-  align-items: right;
+   align-items: center;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
@@ -407,7 +407,6 @@ margin-top: 3%;
 
 .h {
   width: 40%;
-  align-items: right;
    animation-name: spin;
   animation-duration: 3s;
 animation-iteration-count: infinite; 
