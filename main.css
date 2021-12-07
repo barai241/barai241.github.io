@@ -16,7 +16,7 @@ z-index: 1;
   
   text-align: center;
   /*font-size: 192px;*/
-  font-size: 18vw;
+  font-size: 16vw;
   font-family: Eckmannpsych;
   z-index: 1;
   margin-top: 10%;
@@ -28,12 +28,12 @@ z-index: 1;
 .intro {
   text-align: center;
   font-size: 3vw;
-  margin: 15%;
+  margin: 6%;
   
 }
 
 .phone {
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: right;
   margin: auto;
@@ -55,7 +55,7 @@ animation-timing-function: linear;
 .flexbox {
   background: black;
   display: flex;
-  height: 850px;
+  height: 730px;
   margin: auto;
   flex-direction: column;
 }
@@ -181,6 +181,7 @@ animation-timing-function: linear;
   text-align: left;
   
   margin-bottom: 2%;
+  
 
   
 }
@@ -423,6 +424,19 @@ animation-timing-function: linear;
   text-align: left;
   
 }
+
+.link9 {
+  font-size: 50px;
+  font-style: Bold;
+  font-family: Helvetica;
+ color: black;
+  z-index: 3;
+  text-align: left;
+  
+}
+
+
+
 
 
 
