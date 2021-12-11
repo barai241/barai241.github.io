@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
 body {
 	background: #FFF8FE;
@@ -122,7 +123,7 @@ order: 1;
 
 .img1_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -136,7 +137,7 @@ order: 1;
 
 }
 
-.a:hover + .img1, .img1:hover{
+a:hover  + .img1, .img1:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -152,7 +153,7 @@ order: 1;
 }
 .img2_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -164,7 +165,7 @@ order: 1;
 	justify-content: center;
 }
 
-.a:hover + .img2, .img2:hover{
+a:hover + .img2, .img2:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -181,7 +182,7 @@ order: 1;
 
 .img3_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -193,7 +194,7 @@ order: 1;
 	justify-content: center;
 }
 
-.a:hover + .img3, .img3:hover{
+a:hover + .img3, .img3:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -210,7 +211,7 @@ order: 1;
 
 .img4_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -222,7 +223,7 @@ order: 1;
 	justify-content: center;
 }
 
-.a:hover + .img4, .img4:hover{
+a:hover + .img4, .img4:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -238,7 +239,7 @@ order: 1;
 
 .img5_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -250,7 +251,7 @@ order: 1;
 	justify-content: center;
 }
 
-.a:hover + .img5, .img5:hover{
+a:hover + .img5, .img5:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -266,7 +267,7 @@ order: 1;
 
 .img6_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -278,7 +279,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img6, .img6:hover{
+	a:hover + .img6, .img6:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -296,7 +297,7 @@ order: 1;
 
 .img7_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -308,7 +309,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img7, .img7:hover{
+	a:hover + .img7, .img7:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -324,7 +325,7 @@ order: 1;
 
 .img8_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -336,7 +337,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img8, .img8:hover{
+	a:hover + .img8, .img8:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -352,7 +353,7 @@ order: 1;
 
 .img9_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -364,7 +365,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img9, .img9:hover{
+	a:hover + .img9, .img9:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -380,7 +381,7 @@ order: 1;
 
 .img10_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -392,7 +393,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img10, .img10:hover{
+	a:hover + .img10, .img10:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -408,7 +409,7 @@ order: 1;
 
 .img11_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -420,7 +421,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img11, .img11:hover{
+	a:hover + .img11, .img11:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -436,7 +437,7 @@ order: 1;
 
 .img12_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -448,7 +449,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img12, .img12:hover{
+	a:hover + .img12, .img12:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -464,7 +465,7 @@ order: 1;
 
 .img13_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -475,7 +476,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-	.a:hover + .img13, .img13:hover{
+	a:hover + .img13, .img13:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -491,7 +492,7 @@ order: 1;
 
 .img14_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -502,7 +503,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-	.a:hover + .img14, .img14:hover{
+	a:hover + .img14, .img14:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -518,7 +519,7 @@ order: 1;
 
 .img15_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -529,7 +530,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-	.a:hover + .img15, .img15:hover{
+	a:hover + .img15, .img15:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -545,7 +546,7 @@ order: 1;
 
 .img16_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -556,7 +557,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-	.a:hover + .img16, .img16:hover{
+	a:hover + .img16, .img16:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -573,7 +574,7 @@ order: 1;
 
 .img17_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -584,7 +585,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-.a:hover + .img17, .img17:hover{
+a:hover + .img17, .img17:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -600,7 +601,7 @@ order: 1;
 
 .img18_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -611,7 +612,7 @@ order: 1;
 	align-content: center;
 	justify-content: center;
 	}
-.a:hover + .img18, .img18:hover{
+a:hover + .img18, .img18:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -627,7 +628,7 @@ order: 1;
 
 .img19_description {
 	margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -639,7 +640,7 @@ order: 1;
 	justify-content: center;
 	}
 
-	.a:hover + .img19, .img19:hover{
+	a:hover + .img19, .img19:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -656,7 +657,7 @@ order: 1;
 
 .img20_description {
 		margin left: 70px;
-	margin-top: 30px;
+	margin-top: 25px;
 	font-family: Helvetica;
 	font-size: 18px;
 	display: flex;
@@ -666,8 +667,10 @@ order: 1;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+
 	}
-.a:hover + .img20, .img20:hover{
+
+a:hover + .img20, .img20:hover{
 	 display: block;
     position: relative;
     z-index: 100;
@@ -679,3 +682,5 @@ order: 1;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
