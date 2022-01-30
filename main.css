@@ -7,10 +7,12 @@ h1 {
   font-family: Helvetica;
   font-style: light;
   font-size: 24px;
+  margin: 10px;
 }
 
 h2 {
   font-family: Helvetica;
   font-style: light;
   font-size: 100px;
+  
 }
