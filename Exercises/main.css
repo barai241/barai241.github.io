@@ -1,0 +1,122 @@
+body {
+	background-color: rgba(241, 210, 206, 1);
+	color: rgba(41, 95, 80, 1);
+}
+
+@font-face{
+  font-family: Losta Masta;
+  src: url(type/LostaMasta.ttf);
+  font-style: normal;
+}
+
+@font-face{
+  font-family: Losta Masta;
+  src: url(type/LostaMasta-Light.ttf);
+  font-style: normal;
+}
+
+.leaf {
+	width: 100%;
+
+
+}
+
+.ll {
+	display: flex;
+	position: fixed;
+	left: 71%;
+}
+
+h1 {
+font-family: Losta Masta;
+font-style: regular;
+  font-size: 80px;
+  margin: 20px;
+}
+
+h2 {
+	font-family: Losta Masta;
+font-style: light;
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+p {
+	font-family: Helvetica;
+font-style: light;
+font-size: 20px;
+margin: 40px;
+}
+
+blockquote{
+	font-family: Losta Masta;
+font-style: regular;
+  font-size: 40px;
+  margin: 20px;
+  color: rgba(220, 103, 68, 1);
+}
+
+ol {
+	font-family: Helvetica;
+font-style: light;
+font-size: 20px;
+margin: 40px;
+}
+
+ul {
+	font-family: Helvetica;
+font-style: light;
+font-size: 20px;
+margin: 40px;
+}
+
+label {
+	font-family: Losta Masta;
+font-style: light;
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+select {
+
+  /* styling */
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: rgba(241, 210, 206, 1);
+  background-color:rgba(41, 95, 80, 1) ;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 30px;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.pin {
+	width: 60%;
+	
+}
+
+.pineapple {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	font-family: Losta Masta;
+font-style: light;
+  font-size: 40px;
+  margin-left: 40px
+}
+
+ s
+

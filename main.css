@@ -30,3 +30,23 @@ h2 {
   margin-left: 130px;
   color: rgba(122, 16, 16, 1); 
 }
+
+h3 {
+  font-family: Losta Masta;
+  font-style: regular;
+  font-size: 40px;
+  margin-left: 130px;
+  top: 60%;
+  color: rgba(122, 16, 16, 1); 
+}
+
+a:link {
+  color:rgba(122, 16, 16, 1);
+}
+a:visited {
+  color: rgba(122, 16, 16, 1);
+}
+
+a:hover {
+  color: rgba(122, 16, 16, 1);
+}
