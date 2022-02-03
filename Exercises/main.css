@@ -1,6 +1,7 @@
 body {
 	background-color: rgba(241, 210, 206, 1);
 	color: rgba(41, 95, 80, 1);
+  cursor: url('leaf1.svg'), auto;
 }
 
 @font-face{
@@ -118,5 +119,14 @@ font-style: light;
   margin-left: 40px
 }
 
- s
+ a:link {
+  color:rgba(41, 95, 80, 1);
+}
+a:visited {
+  color: rgba(41, 95, 80, 1);
+}
+
+a:hover {
+ color: rgba(220, 103, 68, 1);
+}
 
