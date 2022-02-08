@@ -4,15 +4,22 @@ html {
 
 }
 
+body {
+font-family: Losta Masta;
+  font-style: regular;
+}
+
+
 .right {
 	display: flex;
 	justify-content: right;
+margin-left: 650px;
 }
 
 .left {
 	display: flex;
 	justify-content: left;
-	margin-left: 190px;
+	margin-left: 300px;
 }
 
 img {
@@ -22,3 +29,4 @@ img {
 a {
 	cursor: pointer;
 }
+
