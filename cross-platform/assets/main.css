@@ -1,0 +1,24 @@
+html {    
+    background: url('bali2.jpeg') no-repeat center fixed;     
+    background-size: cover;
+
+}
+
+.right {
+	display: flex;
+	justify-content: right;
+}
+
+.left {
+	display: flex;
+	justify-content: left;
+	margin-left: 190px;
+}
+
+img {
+	width: 60%;
+}
+
+a {
+	cursor: pointer;
+}

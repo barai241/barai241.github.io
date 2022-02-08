@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  background-image: url("bali.jpg");
+}
+
+@font-face{
+  font-family: Losta Masta;
+  src: url(assets/LostaMasta-Regular.ttf);
+  font-style: normal;
+}
+
+p {
+  font-family: Losta Masta;
+  font-style: regular;
+  color: white;
+  font-size: 200px;
+  align-content: center;
+  color: rgba(122, 16, 16, 1); 
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color:rgba(122, 16, 16, 1);
+}
+a:visited {
+  color: rgba(122, 16, 16, 1);
+}
+
+a:hover {
+  color: rgba(122, 16, 16, 1);
+}
+
+a:link {
+  text-decoration: none;
+}
