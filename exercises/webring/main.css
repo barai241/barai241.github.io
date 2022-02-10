@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(249, 186, 255, 1);
+}
+
+h2 {
+  position: absolute;
+  font: 60px Helvetica;
+  left: 20%%;
+  top: 0%;
+  color: rgba(203, 30, 196, 1);
+}
+
+h3 {
+  position: absolute;
+  font: 40px Helvetica;
+  left: 24%%;
+  top: 86%;
+  color: rgba(203, 30, 196, 1);
+}
+
+h1 span {
+  font: 26px Helvetica;
+  height: 200px;
+  position: absolute;
+  width: 40px;
+  left: 20%%;
+  top: 25%;
+  transform-origin: bottom center;
+}
+
+.char1 { transform: rotate(36deg); }
+.char2 { transform: rotate(60deg); }
+.char3 { transform: rotate(100deg); }
+.char4 { transform: rotate(126deg); }
+.char5 { transform: rotate(166deg); }
+.char6 { transform: rotate(206deg); }
+.char7 { transform: rotate(246deg); }
+.char8 { transform: rotate(286deg); }
+.char9 { transform: rotate(320deg); }
+.char10 { transform: rotate(360deg); }
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color:rgba(84, 129, 97, 1);
+}
+a:visited {
+  color: rgba(84, 129, 97, 1);
+}
+
+a:hover {
+  color: rgba(117, 42, 114, 1);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.home:link {
+  color:rgba(203, 30, 196, 1);
+}
+.home:visited {
+  color: rgba(203, 30, 196, 1);
+}
+
+.home:hover {
+  color: rgba(117, 42, 114, 1);
+}
+
+.home:link {
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  top: 33%;
+  left: 38%;
+}
