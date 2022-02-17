@@ -1,0 +1,117 @@
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+body {
+	background-color: rgba(250, 238, 240, 1);
+}
+
+header {
+	height: 95vh;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+justify-content: space-between;
+}
+
+
+
+.title {
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+	font-size: 22vh;
+	text-transform: uppercase;
+	/*border: 1px solid salmon;*/
+	margin: 0;
+	line-height: 0.9;
+	font-weight: 900;
+	font-style: normal;
+	font-weight: lighter;
+	
+	
+}
+
+
+
+img {
+	opacity: 70%;
+	
+	width: 105vw;
+}
+
+img:hover {
+	opacity: 100%;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+h1 {
+	/*text-align: right;*/
+	max-width: 50%;
+margin-left: auto;
+color: white;
+text-indent: -1em;
+}
+
+.p3 {
+	display: flex;
+	flex-direction: row;
+	padding: 40px;
+}
+
+.products {
+	padding: 0;
+	margin: 40px;
+}
+
+
+h2 {
+	font-size: 8vh;
+}
+
+.products1 {
+	padding: 0;
+	margin-left: auto ;
+	margin-right: auto;
+	padding: 30px;
+	color: black;
+	font-size: 3vh;
+}
+
+p {
+font-size: 3vh;	
+padding: 40px;
+}
+
+.p2 {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
+.p1 {
+	display: flex;
+	flex-direction: row;
+	padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
