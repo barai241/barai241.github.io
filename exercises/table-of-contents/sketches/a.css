@@ -3,6 +3,8 @@ body {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 26px;
   font-weight: regular;
+  background-color: rgba(191, 208, 218, 1);
+  color: white;
 }
 
 .wrapper {
@@ -44,4 +46,20 @@ p {
 span {
   display: block;
 }
+
+@media (max-width: 700px) {
+  body {
+    background-color: white;
+    color: rgba(191, 208, 218, 1) ;
+    font-size: 26px;
+  }
+}
+
+
+
+
+
+
+
+
 

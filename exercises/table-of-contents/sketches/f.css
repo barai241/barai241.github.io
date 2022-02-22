@@ -3,8 +3,8 @@ body {
   font-family: 'Archivo', sans-serif;
   font-size: 40px;
   font-weight: 200;
-  background-color: rgba(237, 100, 111, 1);
-  color: white;
+  background-color: rgba(249, 198, 244, 1);
+  color: black;
 }
 
 hr {
@@ -52,3 +52,21 @@ p {
 span {
   display: block;
 }
+
+
+
+
+@media (max-width: 700px) {
+  body {
+    color: white;
+    background-color: rgba(88, 0, 79, 1);
+    font-size: 30px;
+  }
+}
+
+@media (max-height: 650px) {
+  body {
+    background-color: white;
+    color: black;
+    font-size: 43px;
+  }
