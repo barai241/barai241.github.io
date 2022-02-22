@@ -1,0 +1,45 @@
+body {
+  font-family: 'Redressed', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  background-color: rgba(211, 228, 174, 1);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  align-items: center;
+   text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.entries {
+  margin-bottom: 60px;
+}
+
+.heading {
+  margin-bottom: 60px;
+}
+
+.chapter {
+  letter-spacing: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  margin-top: 10px;
+}
+
+
+span {
+  display: block;
+}

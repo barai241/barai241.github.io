@@ -1,5 +1,8 @@
 html {
 	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -22,7 +25,7 @@ justify-content: space-between;
 .title {
 	font-family: 'Nanum Myeongjo', serif;
 	text-align: center;
-	font-size: 22vh;
+	font-size: 15vw;
 	text-transform: uppercase;
 	/*border: 1px solid salmon;*/
 	margin: 0;
@@ -39,7 +42,10 @@ justify-content: space-between;
 img {
 	opacity: 70%;
 	
-	width: 105vw;
+	width: 102%;
+	max-width:102% ;
+	height: 50%;
+	max-height: 50%;
 }
 
 img:hover {
@@ -64,6 +70,7 @@ text-indent: -1em;
 	display: flex;
 	flex-direction: row;
 	padding: 40px;
+	
 }
 
 .products {
@@ -104,6 +111,14 @@ padding: 40px;
 	display: flex;
 	flex-direction: row;
 	padding: 80px;
+	max-width: 40%;
+	min-width: 30%;
+	
+}
+
+.n1 {
+width: 70%;
+max-width: 70%;
 }
 
 
