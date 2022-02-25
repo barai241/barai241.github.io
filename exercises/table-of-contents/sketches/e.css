@@ -1,36 +1,46 @@
 body {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 40px;
-  font-weight: 200;
-  color: rgba(237, 100, 111, 1);
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 400;
 }
-
-
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 40px;
-  align-items: center;
-   text-align: center;
+  width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 20px;
 }
 
+
 h1 {
-  font-size: 70px;
-  font-weight: 700;
-  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 10px;
 }
 
 .entries {
-  margin-bottom: 60px;
+/*display: flex;
+flex-direction: row;
+padding: 10px;*/
+margin: 40px;
 }
 
 .heading {
-  margin-bottom: 60px;
+/*  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;*/
 }
 
 .chapter {
   letter-spacing: 10px;
+  font-size: 60px;
+  font-weight: 800;
 }
 
 p {
@@ -38,7 +48,12 @@ p {
 }
 
 .page {
-  margin-top: 10px;
+font-style: italic;
+ /* display: flex;
+flex-direction: row;
+margin: 0;
+justify-content: right;*/
+
 }
 
 
@@ -47,13 +62,10 @@ span {
 }
 
 
-
 @media (max-width: 700px) {
   body {
-    color:white ;
-    background-color: rgba(237, 100, 111, 1);
+    background-color: white;
+    color:rgba(65, 11, 11, 1) ;
     font-size: 30px;
   }
 }
-
-

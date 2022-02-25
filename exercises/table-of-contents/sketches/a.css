@@ -1,33 +1,37 @@
 
 body {
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 26px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
   font-weight: regular;
-  background-color: rgba(191, 208, 218, 1);
+  background-color: black;
   color: white;
 }
 
 .wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-   text-align: center;
-  
+  padding: 30px;
+margin: 20px;
+
 }
 
 h1 {
-  font-size: 26px;
-  margin: 0;
-  font-weight: 0;
+  font-size: 40px;
+  margin: 10px;
+  font-weight: 600;
   
 }
 
+
+
 .entries {
   margin-bottom: 60px;
+padding: 40px;
+margin-left: 90px;
 }
 
 .heading {
-  margin-bottom: 60px;
+  margin-bottom: o;
+
 }
 
 .chapter {
@@ -40,6 +44,14 @@ p {
 
 .page {
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.description {
+  font-weight: 400;
+  font-style: italic;
 }
 
 
@@ -50,10 +62,13 @@ span {
 @media (max-width: 700px) {
   body {
     background-color: white;
-    color: rgba(191, 208, 218, 1) ;
-    font-size: 26px;
+    color: black ;
+    font-size: 40px;
   }
 }
+
+
+
 
 
 
