@@ -1,78 +1,87 @@
 
 
 body {
-  background-color: black;
-  font-family: arial;
-  color: white;
-  font-size: 100px;
+ font-family: 'Roboto Mono', monospace;
+  /*background-color: #E40893;*/
+  background: #E3F8FD;
+  color:  black;
+  display: grid;
+  place-content:  center;
+  text-align:  center;
+  min-height:  100vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
 .item {
   text-align: center;
 }
 
-@keyframes spinType {
-  0% {
-    transform: rotate(0.5turn);
-  }
-  60% {
-    transform: rotate(0.7turn);
-  }
-  100% {
-    transform: rotate(1turn);
+h1 {
+   font-family: 'Roboto Mono', monospace;
+   position: relative;
+   font-size: clamp(1rem, 3vw + 1rem, 4rem);
+position: relative;
+
+}
+
+
+h1::before,
+
+h1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: #E3F8FD;
+  animation: typewriter 4s steps(29) 1s forwards;
+}
+
+h1::after {
+  width: .125em;
+  background: black;
+  animation: typewriter 4s steps(29) 1s forwards, 
+  blink 350ms steps(29) infinite ;
+}
+
+.subtitle {
+  color: black;
+  font-size: 2rem;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease 5s;
+}
+
+@keyframes typewriter {
+  to { left: 100%; }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
   }
 }
 
-@keyframes yinyangSpin {
-  0% {
-    transform: rotate(0turn);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-@keyframes colorSwap {
-  0% {
-    fill: default;
-  }
-  100% {
-    fill: white;
-  }
-}
-
-@keyframes fade {
-  0% {
+@keyframes fadeInUp {
+  to {
     opacity: 1;
-  }
-  100% {
-    opacity: 0;
+    transform: translateY(0);
   }
 }
 
-#yin-yang {
-  animation: yinyangSpin 5s ease-out infinite;
-  height:500px;
-}
 
-#yin-yang path, #yin-yang circle {
-  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
-}
 
-#yin-yang:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
 
-/*basic animation, spins once in one second*/
-div.item {
-  animation: spinType 1s;
-}
+
+
+
+
+
+
+
+
+
