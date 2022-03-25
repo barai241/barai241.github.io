@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+section.panner {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
+section.panner div.world {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: grid;
+	grid-template-columns: 690px 690px 690px 690px;
+	grid-gap: 48px;
+
+	padding: 48px;
+}
+
+img {
+	width: 690px;
+
+}
+
+@media (max-width: 600px) {
+
+
+section {
+	grid-gap: 10px;
+
+}
+
+img {
+	width: 600px;
+}
+
+}
+
+@media (min-width: 600px) {
+
+
+
