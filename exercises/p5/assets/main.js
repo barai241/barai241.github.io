@@ -7,7 +7,7 @@ function draw() {
   stroke("black");
   strokeWeight(1);
   noFill();
-  ellipse(mouseX, mouseY, 200, 200);
+  ellipse(mouseX, mouseY, 100, 100);
 }
 	
 
@@ -17,5 +17,5 @@ function mousePressed() {
   randG = round(random([0], [255]));
   randB = round(random([0], [255]));
  fill(randR, randG, randB );
- ellipse(mouseX, mouseY, 200, 200);
+ ellipse(mouseX, mouseY, 100, 100);
 }
