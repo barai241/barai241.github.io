@@ -1,0 +1,176 @@
+body {
+	background-color: white;
+
+
+}
+
+
+
+
+
+.wrapper {
+	/*display: flex;
+	flex-wrap: wrap;
+justify-content: center;*/
+column-count: 3;
+column-gap: 0;
+  margin-top: 100px;
+
+}
+
+
+.entry {
+  border: 2px dotted rgba(73, 11, 134, 1);
+  padding: 20px;
+  border-radius: 80px;
+  font-size: 22px;
+  display: inline-block;
+  margin: 0 0 50px;
+  /*animation: fadeIn 3s ease-in;*/
+
+}
+
+
+/*.entry {
+	max-width: 500px;
+	
+	margin-right: 50px;
+	margin-top: 50px;
+}*/
+
+.text {
+	font-family: Helvetica;
+	font-size: 12px;
+}
+
+img {
+	width: 35%;
+	margin-left: 120px;
+	/*background: rgba(220, 204, 255, 1);
+	border-radius: 90px;
+	border:  2px solid black;*/
+}
+
+
+/** {box-sizing:  border-box;}*/
+
+h1 {
+	font-family: sutturah, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30vh;
+color: rgba(108, 39, 255, 1);
+margin: 0;
+
+}
+
+body {
+  font-family: Helvetica;
+  font-weight:  lighter;
+  margin:  0;
+  font-size: 2vw;
+}
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 0;
+	margin-left: 80px;
+	position: relative;
+	
+	/*margin: 0;*/
+}
+
+h2 {
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+	background: white;
+	background: rgba(220, 204, 255, 1);
+	border-radius: 90px;
+	padding: 20px;
+	border:  2px solid black;
+	width: 50%;
+
+}
+
+p {
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+	top: -12vh;
+	background: white;
+	background: rgba(220, 204, 255, 1);
+	border-radius: 90px;
+	padding: 20px;
+	border:  2px solid black;
+}
+
+
+.filter {
+	padding: 2rem;
+  margin-left: 70px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.filter span {
+background-color: white;
+padding: 5px 10px;
+border: 2px solid black;
+border-radius: 20px;
+
+}
+
+.filter span:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+ a:link {
+  color:rgba(241, 0, 159, 1);
+}
+a:visited {
+  color: rgba(241, 0, 159, 1);
+}
+
+a:hover {
+  color: rgba(211, 11, 191, 1);
+}
+
+li {
+  margin-right:  30px;
+}
+
+
+
+/*.filter {
+	display: flex;
+	flex-direction: wrap ;
+	justify-content: center;
+	padding: 20px;*/
+/*margin: 70px 90px;*/
+/*font-size: 1vw;*/
+/*margin: 90px;*/
+}
+
+/*.filter span {
+  background-color: rgba(255,255,255,.5);
+  color:  black;
+  /*padding: 5px 60px;*/
+  /*border-radius: 20px;
+  border:  2px solid black;
+padding: 10px;
+  text-decoration:  none;*/
+/*}*/
+
+
+/*s*/
+
+remove margin on third element
+.filter a:nth-child(3){
+  margin-right:  0;
+}
