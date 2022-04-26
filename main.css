@@ -15,14 +15,14 @@ h2 {
   }
 
   a:link {
-  color:rgba(241, 0, 159, 1);
+  color:white;
 }
 a:visited {
-  color: rgba(241, 0, 159, 1);
+  color: white;
 }
 
 a:hover {
-  color: rgba(211, 11, 191, 1);
+  color: white;
 }
 
 h3 {
