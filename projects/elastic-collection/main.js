@@ -66,11 +66,6 @@ function showHappymeals() {
      imageHolder.classList.add("happymealImage");
      happymealTextHolder.appendChild(imageHolder);
 
-  const slugify = function(name) {
-   return name.toLowerCase().replaceAll(' ', '-');
- };
-
-
 
 
 happymealTextHolder.addEventListener("click", show);
@@ -87,6 +82,117 @@ function show() {
           happymealTextHolder.appendChild(textHolder);
 
 }
+
+
+
+      const slugify = function(name) {
+   return name.toLowerCase().replaceAll(' ', '-');
+ };
+  // clean up names of tags to be lower case without spaces
+
+
+// moved everything inside the show recipe function
+ //changed recipes to recipe
+
+ let collection = happymeal.fields.collection;
+ collection.forEach(function(collection) {
+   let collectionClassName = slugify(collection);
+   console.log('happymealClassName', collectionClassName);
+   imageHolder.classList.add(collectionClassName);
+ });
+ //  // add event listener to our filter to add an active class to our video
+ let filterBm = document.querySelector(".bm");
+ let bmbutton = document.querySelector(".bmbutton");
+ filterBm.addEventListener("click", function(){
+   if (imageHolder.classList.contains("bm")) {
+     imageHolder.style.display = "block";
+     bmbutton.classList.add("active");
+   } else {
+  
+     imageHolder.style.display = "none";
+     bmbutton.classList.remove("active");
+   }
+ });
+  let filterDoraemon = document.querySelector(".doraemon");
+ let doraemonButton = document.querySelector(".doraemonbutton");
+ filterDoraemon.addEventListener("click", function(){
+   if (imageHolder.classList.contains("doraemon")) {
+     imageHolder.style.display = "block";
+     doraemonButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    doraemonButton.classList.remove("active");
+   }
+ });
+  let filterCh = document.querySelector(".ch");
+ let chButton = document.querySelector(".chbutton");
+ filterCh.addEventListener("click", function(){
+   if (imageHolder.classList.contains("ch")) {
+     imageHolder.style.display = "block";
+     chButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    chButton.classList.remove("active");
+   }
+ });
+  let filterIdog = document.querySelector(".idog");
+ let idogButton = document.querySelector(".idogbutton");
+ filterIdog.addEventListener("click", function(){
+   if (imageHolder.classList.contains("idog")) {
+     imageHolder.style.display = "block";
+     idogButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    idogButton.classList.remove("active");
+   }
+ });
+  let filterHk = document.querySelector(".hk");
+ let hkButton = document.querySelector(".hkbutton");
+ filterHk.addEventListener("click", function(){
+   if (imageHolder.classList.contains("hk")) {
+     imageHolder.style.display = "block";
+     hhkButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    hkButton.classList.remove("active");
+   }
+ });
+
+  let filterPokemon = document.querySelector(".pokemon");
+ let pokemonButton = document.querySelector(".pokemonbutton");
+ filterPokemon.addEventListener("click", function(){
+   if (imageHolder.classList.contains("pokemon")) {
+     imageHolder.style.display = "block";
+     pokemonButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    pokemonButton.classList.remove("active");
+   }
+ });
+
+   let filterFrog = document.querySelector(".frog");
+ let frogButton = document.querySelector(".frogbutton");
+ filterFrog.addEventListener("click", function(){
+   if (imageHolder.classList.contains("frog")) {
+     imageHolder.style.display = "block";
+     frogButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    frogButton.classList.remove("active");
+   }
+ });
+
+  let filterBeatstar = document.querySelector(".beatstar");
+ let BeatstarButton = document.querySelector(".beatstarbutton");
+ filterBeatstar.addEventListener("click", function(){
+   if (imageHolder.classList.contains("beatstar")) {
+     imageHolder.style.display = "block";
+     btButton.classList.add("active");
+   } else {
+    imageHolder.style.display = "none";
+    beatstarButton.classList.remove("active");
+   }
+ });
 
 
 
