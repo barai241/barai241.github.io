@@ -1,0 +1,47 @@
+
+body {
+  background-color: pink;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  /*padding: 10px 20px;*/
+  margin-bottom: 20px;
+  background-color: white;
+
+  text-decoration: none;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+/*.pixel {
+  border: 1px solid black;
+}*/
+
+.pixel:hover{
+  background-color: pink;
+}
+
+.wrapper {
+  border: 1px solid black;
+  background-color: white;
+  margin: auto;
+  display: grid;
+  width: 70vw;
+  height: 80vh;
+  grid-template-columns:  repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+}
