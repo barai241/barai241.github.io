@@ -57,6 +57,7 @@ function showHappymeals() {
   happymeals.forEach((happymeal) => {
     let happymealTextHolder = document.createElement("div");
     happymealTextHolder.classList.add("entry");
+    // happymealTextHolder.setAttribute("id", "entry_div");
     // happymealTextHolder.innerText = happymeal.fields.name;
     wrapper.appendChild(happymealTextHolder);
 
@@ -64,6 +65,13 @@ function showHappymeals() {
      let imageHolder = document.createElement("img");
      imageHolder.src = happymeal.fields.images[0].url;
      imageHolder.classList.add("happymealImage");
+
+     imageHolder.style.display = "block";
+     imageHolder.style.padding = "20px";
+     imageHolder.style.border = "2px dotted rgba(73, 11, 134, 1)";
+     imageHolder.style.borderRadius = "80px";
+     imageHolder.style.margin = "70px";
+
      happymealTextHolder.appendChild(imageHolder);
 
 
@@ -72,14 +80,12 @@ happymealTextHolder.addEventListener("click", show);
 
 
 function show() {
-  console.log("test");
-  imageHolder.classList.toggle("active");
-  happymealTextHolder.classList.toggle("active");
 
   let textHolder = document.createElement("h2");
      textHolder.classList.add("text");
      textHolder.innerText = happymeal.fields.Notes;
           happymealTextHolder.appendChild(textHolder);
+
 
 }
 
@@ -103,14 +109,18 @@ function show() {
  //  // add event listener to our filter to add an active class to our video
  let filterBm = document.querySelector(".bm");
  let bmbutton = document.querySelector(".bmbutton");
+
+
+
  filterBm.addEventListener("click", function(){
    if (imageHolder.classList.contains("bm")) {
-     imageHolder.style.display = "block";
-     bmbutton.classList.add("active");
+     console.log('yooo');
    } else {
-  
+
      imageHolder.style.display = "none";
      bmbutton.classList.remove("active");
+     console.log('nononono');
+     // entryB.classList.remove('active');
    }
  });
   let filterDoraemon = document.querySelector(".doraemon");
@@ -183,11 +193,12 @@ function show() {
  });
 
   let filterBeatstar = document.querySelector(".beatstar");
- let BeatstarButton = document.querySelector(".beatstarbutton");
+ let beatstarButton = document.querySelector(".beatstarbutton");
  filterBeatstar.addEventListener("click", function(){
    if (imageHolder.classList.contains("beatstar")) {
+     console.log('pokemon yooo');
      imageHolder.style.display = "block";
-     btButton.classList.add("active");
+     beatstarButton.classList.add("active");
    } else {
     imageHolder.style.display = "none";
     beatstarButton.classList.remove("active");
@@ -200,11 +211,3 @@ function show() {
 
  });
 }
-
-
-
-
-
-
-
-

@@ -143,6 +143,7 @@ function pick(paramList, amount = 1) {
         result.push(splice(list));
     }
     return result;
+
 }
 
 function encodeOptions(

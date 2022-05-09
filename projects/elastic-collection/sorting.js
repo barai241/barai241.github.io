@@ -143,7 +143,8 @@ function showHappymeals() {
  let pokemonButton = document.querySelector(".pokemonbutton");
  filterAfrica.addEventListener("click", function(){
    if (imageHolder.classList.contains("pokemon")) {
-     imageHolder.style.display = "block";
+     console.log('yoooo');
+     imageHolder.style.display = "none";
      pokemonButton.classList.add("active");
    } else {
     imageHolder.style.display = "none";

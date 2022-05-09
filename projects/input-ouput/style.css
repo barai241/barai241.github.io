@@ -32,13 +32,13 @@ button:hover {
   background-color: pink;
   color: white;
   cursor: pointer;
-   text-align: center;
+ /*  text-align: center;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 50%;*/
 }
 
-.awesome {
+.pink {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
