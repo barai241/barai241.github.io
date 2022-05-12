@@ -1,6 +1,5 @@
 const container = document.querySelector(".container");
 let allEmojis = [
-  
   "💑",
   "👩‍❤️‍👩",
   "👨‍❤️‍👨",
@@ -55,6 +54,7 @@ let allEmojis = [
   "🔮",
   
 ];
+
 let index = 0;
 
 container.addEventListener("click", (e) => {
@@ -67,18 +67,17 @@ container.addEventListener("click", (e) => {
   box.style.top = `${randomInteger(0, 90)}%`;
   box.style.zIndex = index++;
   container.appendChild(box);
+
 });
-
-clearPink.addEventListener("click", function(){
-  // newDiv.style.backgroundColor = "white";
-});
-
-  wrapper.appendChild(newDiv);
-
 
 function randomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+let newPink = document.createElement("pink");
+clearDrawing.addEventListener("click", function(){
+newDiv.style.backgroundColor = "white";
+});
 
 
 
